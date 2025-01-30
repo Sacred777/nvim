@@ -5,7 +5,7 @@
 local M = {}
 
 M.ui = {
-  theme = "kanagawa",
+  theme = "github_dark",
   transparency = true,
   statusline = {
     theme = "vscode_colored",
@@ -23,7 +23,7 @@ M.ui = {
   },
 
   hl_override = {
-    Comment = { italic = true },
+    -- Comment = { italic = true },
     ["@comment"] = { italic = true },
     DiffChange = {
       bg = "#464414",
@@ -36,6 +36,10 @@ M.ui = {
     DiffRemoved = {
       bg = "#461414",
       fg = "none",
+    },
+    Comment = {
+      fg = "#5c6370",
+      italic = true
     },
   },
 }

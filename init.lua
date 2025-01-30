@@ -1,6 +1,11 @@
 vim.g.base46_cache = vim.fn.stdpath "data" .. "/nvchad/base46/"
 vim.g.mapleader = " "
 
+vim.opt.relativenumber = true
+
+-- local width = vim.o.columns - 4 -- Отступ 4 символа
+-- vim.opt.textwidth = width
+
 -- bootstrap lazy and all plugins
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
 

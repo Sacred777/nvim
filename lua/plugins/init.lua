@@ -57,8 +57,9 @@ return {
         "html",
         "css",
         "typescript",
+        "tsx",
         "javascript",
-        "go",
+        "liquid",
       },
     },
   },
@@ -214,5 +215,7 @@ return {
   {
     "Exafunction/codeium.vim",
     lazy = false,
+    enabled = false, -- Выключен codeium
   },
+  { "ellisonleao/gruvbox.nvim" },
 }
